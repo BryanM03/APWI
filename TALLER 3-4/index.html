@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>TALLER 3</title>
+</head>
+
+<body>
+	<!--Inicio del taller 3-->
+	<script type="text/javascript">
+
+		// Validacion del primer numero
+		do {
+			numero1 = parseInt(prompt('Ingrese 1er Valor'));
+            if (isNaN(numero1)) {
+                alert("El campo no pude ser vacio");
+			}
+        } while (isNaN(numero1));
+
+		//Validacion del segundo numero
+        do {
+            numero2 = parseInt(prompt('Ingrese 2do valor:'));
+            if (isNaN(numero2)) {
+                alert("El campo no pude ser vacio");
+            }
+        } while (isNaN(numero2));
+
+		//Suma de los dos numeros
+		resultado = numero1 + numero2;
+		alert("La suma es: " + resultado);
+
+		//Resta de los dos numeros
+		resultado = numero1 - numero2;
+		alert("La resta es: " + resultado);
+
+		//Multiplicacion de los dos numeros
+		resultado = numero1 * numero2;
+		alert("La multiplicación es: " + resultado);
+
+		//Division de los dos numeros
+		resultado = numero1 / numero2;
+		alert("La división es: " + resultado);
+
+		//Residuo de los dos numeros
+		resultado = numero1 % numero2;
+		alert("El residuo es: " + resultado);
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>TALLER 4</title>
+</head>
+
+<body>
+	<!--Inicio del taller 4-->
+	<script type="text/javascript">
+
+		// Transformar horas a segundos
+		var hoy = new Date();
+		var hora = hoy.getHours();
+		var minutos = hoy.getMinutes();
+		var horaminu = hora + ':' + minutos;
+		//Mostramos hora actual
+		alert('La hora es: ' + horaminu);
+		//Convertimos la hora y minutos en segundos
+		horaint = parseInt(hora) * 3600;
+		minutoint = parseInt(minutos) * 60;
+		//Sumamos los segundos de hora y minutos
+		segun = horaint + minutoint;
+		alert('La hora actual en segudos es: ' + segun);
+
+		//Calcular la base de un triangulo
+		//Validacion de base y altura
+		do {
+			base = parseInt(prompt('Ingrese la base'));
+			if (isNaN(base)) {
+				alert("El campo no pude ser vacio");
+			}
+		} while (isNaN(base));
+		do {
+			altura = parseInt(prompt('Ingrese la altura'));
+			if (isNaN(altura)) {
+				alert("El campo no pude ser vacio");
+			}
+		} while (isNaN(altura));
+		//Sacamos la area
+		area = base * altura / 2;
+		alert('El area del triangulo es: ' + area);
+
+		//Calcular la raiz cuadrada de un numero impar
+		do {
+			//Validamos el ingreso del valor
+			do {
+				impar = parseInt(prompt('Ingrese número impar'));
+				if (isNaN(impar)) {
+					alert("El campo no pude ser vacio");
+				}
+			} while (isNaN(impar));
+			//Verificamos que el valor ingresado es impar
+			res = impar % 2;
+			if (res == 0) {
+				alert("No es numero impar");
+			}
+		} while (res == 0);
+		//Sacamos Raiz cuadrada del valor
+		raiz2 = Math.sqrt(impar);
+		resultado = raiz2.toFixed(3);  //Truncamos a 3 decimas
+		alert('El resultado es: ' + resultado);
+
+		//Mostrar la longitud de un texto
+		var texto = prompt("Ingrese texto");
+		alert('La longitud del texto es: ' + texto.length);
+
+		//Mostrar la version del navegador
+		alert('La version del navegador es: ' + navigator.appVersion);
+
+		//Mostrar el ancho y la altura de la pantalla
+		var resolucion = screen.width + " x " + screen.height;
+		alert("La resolución de tu pantalla es: " + resolucion);
+
+		//Imprimir la pagina
+		window.print();
+
+	</script>
+
+</body>
+</html>
