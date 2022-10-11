@@ -6,6 +6,7 @@
         Crear Cuenta
     </title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/javascript.js"></script>
 </head>
 <body>
     <h1>Gestion de practicas pre-profesionales ULEAM</h1>
@@ -20,7 +21,7 @@
 
                     <p>
                         <h4>Nombres:</h4>
-                        <input class="control2" type="text" name="usuario" id="usuario" placeholder="Jose Eduardo" />
+                        <input class="control2" type="text" name="usuario" id="nombre" placeholder="Jose Eduardo" />
                     </p>
                     <p>
                         <h4>Apellidos:</h4>
@@ -32,11 +33,11 @@
                     </p>
                     <p>
                         <h4>Contraseña:</h4>
-                        <input class="control2" type="password" name="contraseña" id="contraseña" placeholder="*****" />
+                        <input class="control2" type="password" name="contraseña" id="pass1" placeholder="*****" />
                     </p>
                     <p>
                         <h4>Repita contraseña:</h4>
-                        <input class="control2" type="password" name="contraseña2" id="contraseña2" placeholder="*****" />
+                        <input class="control2" type="password" name="contraseña2" id="pass2" placeholder="*****" />
                     </p>
                     <p>
                         <h4>Telefono:</h4>
@@ -44,7 +45,7 @@
                     </p>
                     <p><a href="index.html"><u>Ya tienes una cuenta?</u></a></p>
 
-                    <button class="boton2" type="submit">
+                    <button class="boton2" type="submit" onclick="validarFormulario()">
                         Crear Cuenta
                     </button>
                 </form>
