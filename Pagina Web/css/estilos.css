@@ -1,0 +1,105 @@
+body {
+    height: 400px;
+    background-image: url("https://www.uleam.edu.ec/wp-content/uploads/2019/12/Entrada-Uleam.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'calibri';
+}
+
+h1{
+    text-align:center;
+    font-size:40px;
+}
+
+blockquote {
+    text-align: center;
+    background: rgba(100, 100, 100, 0.7);
+    border-radius: 20px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 40%;
+    margin: auto;
+}
+
+button.boton {
+    width: 80%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    font-family: 'calibri';
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.control {
+    width: 75%;
+    background: #ffffff;
+    padding: 10px;
+    font-family: 'calibri';
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #808080;
+    font-size: 18px;
+    color: black;
+}
+
+.ingreso-usuario h4 {
+    margin-bottom: 4px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ingreso-usuario h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.control2 {
+    width: 60%;
+    background: #ffffff;
+    padding: 8px;
+    font-family: 'calibri';
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #808080;
+    font-size: 15px;
+    color: black;
+}
+
+button.boton2 {
+    width: 65%;
+    background: #1f53c5;
+    font-family: 'calibri';
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+blockquote.index2 {
+    text-align: center;
+    background: rgba(100, 100, 100, 0.7);
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 35%;
+    margin: auto;
+}
+
+.uleam {
+    position:fixed;
+    width: 150px;
+    left: 80%;
+    top: 15%;
+}
+
+
+
+
