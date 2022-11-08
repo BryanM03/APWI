@@ -306,4 +306,56 @@ blockquote.index2 {
     height: 700px;
 }
 
+.container-foot {
+    display: flex;
+    justify-content: space-between;
+}
 
+.foot {
+    background-color: #cf2f2f;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.icon{
+    margin: 16px 0;
+    font-size: 30px;
+    place-content: center;
+}
+
+.bar {
+    background-color: #b83030;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.mar{
+    margin: 16px 0;
+}
+
+button.botonf {
+    width: 50%;
+    background: #af3434;
+    border: none;
+    padding: 8px;
+    color: white;
+    margin: 4px 0;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.botonf:hover {
+    background: #771212;
+}
+
+.perfil{
+    margin: 4px 0;
+    font-size: 15px;
+}
+
+.per-us{
+    text-align: center;
+}
